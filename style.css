@@ -104,6 +104,16 @@ button {
     background: #470F0B;
 }
 
+.item .gray {
+    color: #434747;
+    margin-bottom: 5px;
+}
+
+.item .color {
+    color: #470F0B;
+    font-weight: bold;
+}
+
 .users {
     margin: 0 1em;
 }
