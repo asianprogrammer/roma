@@ -15,6 +15,7 @@ a {
 body {
     padding: 0;
     margin: 2em 4em;
+    background: #FFFDFC;
 }
 
 nav {
@@ -22,9 +23,13 @@ nav {
     font-family: Helvetica;
 }
 
-nav a, nav .icon {
+.nav-links a, nav .icon {
     margin: 0 0.5em;
     cursor: pointer;
+    color: #060D0D;
+}
+
+nav a {
     color: #060D0D;
 }
 
@@ -47,4 +52,124 @@ a.active {
     border-radius: 4px;
     padding: 0.5em 1.5em;
     border: solid 1px #060D0D;
+}
+
+.view {
+    gap: 20%;
+    margin-top: 5%;
+    font-family: Helvetica;
+}
+
+.product-view {
+    height: 75vh;
+}
+
+.product-view img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: top right;
+}
+
+article {
+    width: 46%;
+}
+
+article h1 {
+    margin: 0;
+    font-size: 3em;
+    font-family: Korolev;
+}
+
+article p {
+    margin: 0.5em 0;
+    font-size: 1.5em;
+    color: #434747;
+    font-family: sans-serif;
+}
+
+.customize {
+    margin-top: 3em;
+}
+
+button {
+    border: none;
+    outline: none;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 0.5em 1.5em;
+    background: #470F0B;
+}
+
+.users {
+    margin: 0 1em;
+}
+
+.users .user {
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: -1.2em;
+    border: solid 1px white;
+}
+
+.users .user img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sold-count {
+    color: #434747;
+    margin-left: 1.2em;
+}
+
+article h2 {
+    margin-top: 10%;
+}
+
+.items {
+    gap: 1.5em;
+    flex-wrap: wrap;
+}
+
+.items .item {
+    width: 100%;
+    display: flex;
+    padding: 1em;
+    max-width: 300px;
+    overflow: hidden;
+    border-radius: 4px;
+    align-items: center;
+    border: solid 1px #CDCFCF;
+    position: relative;
+}
+
+.item::before {
+    right: 2em;
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: url(./assets/icons/add.svg) no-repeat;
+    background-size: contain;
+}
+
+.item-img {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin-right: 1em;
+    border: solid 1px;
+    border-radius: 50%;
+}
+
+.itme-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
