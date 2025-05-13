@@ -4,12 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roma</title>
+    <link rel="stylesheet" href="./assets/styles/flex.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <main>
-        <header>Roma</header>
+        <nav class="nav flex FY-center F-space">
+            <header>
+                <img src="./assets/images/logo.png" alt="Roma Logo" >
+            </header>
+
+            <section class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#">Collections</a>
+                <a href="#">Scents</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </section>
+
+            <section class="actions flex FY-center">
+                <div class="icon">
+                    <img src="./assets/icons/cart.svg" alt="Add to cart" >
+                </div>
+                <div class="icon">
+                    <img src="./assets/icons/search.svg" alt="Search product" >
+                </div>
+                <a href="#@login" class="login">Login</a>
+            </section>
+        </nav>
     </main>
 
 </body>
