@@ -1,3 +1,4 @@
 # roma
-created by Parvez Ahmed
-design by Bardia Adibi
+`created` by **Parvez Ahmed**
+<br />
+`design` by **Bardia Adibi**
