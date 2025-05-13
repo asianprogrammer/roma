@@ -154,9 +154,10 @@ article h2 {
     max-width: 300px;
     overflow: hidden;
     border-radius: 4px;
-    align-items: center;
-    border: solid 1px #CDCFCF;
     position: relative;
+    align-items: center;
+    border: solid 1px #E6E7E7;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
 
 .item::before {
